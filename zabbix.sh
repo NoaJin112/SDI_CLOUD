@@ -1,5 +1,5 @@
 host=$(hostname)
-ip=$(hostname -i)
+ip=$(hostname -I)
 
 sudo ufw allow 10050
 
