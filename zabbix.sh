@@ -1,5 +1,5 @@
 host=$(hostname)
-ip=$(hostname -I)
+ip=$hostname -I | awk '{print $1}'
 
 sudo ufw allow 10050
 
