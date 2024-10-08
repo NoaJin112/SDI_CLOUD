@@ -1,3 +1,4 @@
+#!/bin/bash
 
 db_name="espocrm"
 db_user="espo"
