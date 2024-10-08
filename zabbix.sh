@@ -1,3 +1,4 @@
+#!/bin/bash
 host=$(hostname)
 ip=$hostname -I | awk '{print $1}'
 
