@@ -1,6 +1,6 @@
 #!/bin/bash
 host=$(hostname)
-ip=$hostname -I | awk '{print $1}'
+ip=$(hostname -I | awk '{print $1}')
 
 ufw allow 10050
 
